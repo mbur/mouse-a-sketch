@@ -14,7 +14,7 @@ $("input").change(function(){
 })
 
 $("td").mouseover(function() {
-	$(this).css("background-color", newColor);
+	$(this).css("background-color", currentColor);
 })
 
 
